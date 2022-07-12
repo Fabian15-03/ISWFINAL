@@ -1,0 +1,52 @@
+{
+  "expo": {
+    "name": "App",
+    "slug": "App",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#15171E"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+
+    "android": {
+      "permissions": [
+        "CAMERA_ROLL",
+        "READ_EXTERNAL_STORAGE",
+        "WRITE_EXTERNAL_STORAGE",
+        "NOTIFICACION",
+        "USER_FACING_NOTIFICATIONS"
+      ],
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#FFFFFF"
+
+      }
+    },
+
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "extra":{
+      "firebase":{
+      "apiKey": "AIzaSyAYGG_tOjmC3ixg9hKKt5GWEArMiWzia_o",
+      "authDomain": "apptimed-d4b77.firebaseapp.com",
+      "projectId": "apptimed-d4b77",
+      "storageBucket": "apptimed-d4b77.appspot.com",
+      "messagingSenderId": "282955924060",
+      "appId": "1:282955924060:web:8203762b9bb80f00a5dc99"
+      }
+    }
+  }
+}
